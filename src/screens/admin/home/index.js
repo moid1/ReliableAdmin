@@ -29,7 +29,7 @@ const AdminHome = ({navigation}) => {
       };
 
       fetch(
-        'https://portal.reliabletiredisposalhq.com/api/get-dashboard-stats',
+        'https://manifest.reliabletiredisposal.online/api/get-dashboard-stats',
         requestOptions,
       )
         .then(response => response.text())

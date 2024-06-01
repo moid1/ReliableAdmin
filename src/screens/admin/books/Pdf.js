@@ -37,7 +37,7 @@ const PDFViewer = ({navigation, route}) => {
         </Pressable>
 
         <Pressable
-        onPress={()=>{Linking.openURL(`https://portal.reliabletiredisposalhq.com/${data}`)}}
+        onPress={()=>{Linking.openURL(`https://manifest.reliabletiredisposal.online/${data}`)}}
           style={{
             height: 40,
             width: 60,
@@ -53,7 +53,7 @@ const PDFViewer = ({navigation, route}) => {
       <Pdf
         trustAllCerts={false}
         source={{
-          uri: `https://portal.reliabletiredisposalhq.com/${data}`,
+          uri: `https://manifest.reliabletiredisposal.online/${data}`,
           cache: true,
         }}
         onLoadComplete={(numberOfPages, filePath) => {
@@ -67,7 +67,7 @@ const PDFViewer = ({navigation, route}) => {
         }}
         onPressLink={uri => {
           console.log(
-            `Link pressed: https://portal.reliabletiredisposalhq.com/${data}`,
+            `Link pressed: https://manifest.reliabletiredisposal.online/${data}`,
           );
         }}
         style={{flex: 1,backgroundColor:"white"}}

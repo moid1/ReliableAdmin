@@ -29,7 +29,7 @@ const FulfilledOrders = ({navigation}) => {
       };
 
       fetch(
-        'https://portal.reliabletiredisposalhq.com/api/compare-orders',
+        'https://manifest.reliabletiredisposal.online/api/compare-orders',
         requestOptions,
       )
         .then(response => response.text())
@@ -56,7 +56,7 @@ const FulfilledOrders = ({navigation}) => {
   //           redirect: 'follow'
   //         };
 
-  //         fetch("https://portal.reliabletiredisposalhq.com/api/get-fulfill-orders", requestOptions)
+  //         fetch("https://manifest.reliabletiredisposal.online/api/get-fulfill-orders", requestOptions)
   //           .then(response => response.text())
   //           .then(result => {
   //             const data = JSON.parse(result);

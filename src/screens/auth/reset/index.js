@@ -80,7 +80,7 @@ const ResetPassword = ({navigation, route}) => {
       };
 
       fetch(
-        'https://portal.reliabletiredisposalhq.com/api/change-password',
+        'https://manifest.reliabletiredisposal.online/api/change-password',
         requestOptions,
       )
         .then(response => response.text())

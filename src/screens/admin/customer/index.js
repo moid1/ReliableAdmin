@@ -29,7 +29,7 @@ const AdminCustomer = ({navigation}) => {
       };
 
       fetch(
-        'https://portal.reliabletiredisposalhq.com/api/get-customers',
+        'https://manifest.reliabletiredisposal.online/api/get-customers',
         requestOptions,
       )
         .then(response => response.text())

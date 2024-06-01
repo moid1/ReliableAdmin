@@ -28,7 +28,7 @@ const AdminManger = ({navigation}) => {
       };
 
       fetch(
-        'https://portal.reliabletiredisposalhq.com/api/get-all-managers',
+        'https://manifest.reliabletiredisposal.online/api/get-all-managers',
         requestOptions,
       )
         .then(response => response.text())

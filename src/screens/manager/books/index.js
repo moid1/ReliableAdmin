@@ -31,7 +31,7 @@ const ManagerBooks = ({navigation}) => {
       };
 
       fetch(
-        'https://portal.reliabletiredisposalhq.com/api/get-orders',
+        'https://manifest.reliabletiredisposal.online/api/get-orders',
         requestOptions,
       )
         .then(response => response.text())

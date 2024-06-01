@@ -27,7 +27,7 @@ const [order,setOrder]=useState([])
         redirect: 'follow',
       };
 
-      fetch('https://portal.reliabletiredisposalhq.com/api/get-orders', requestOptions)
+      fetch('https://manifest.reliabletiredisposal.online/api/get-orders', requestOptions)
         .then(response => response.text())
         .then(result => {
           // console.log(result)

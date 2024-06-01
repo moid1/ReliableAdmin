@@ -55,7 +55,7 @@ const CreateOrder = ({navigation}) => {
       };
 
       fetch(
-        'https://portal.reliabletiredisposalhq.com/api/get-all-drivers',
+        'https://manifest.reliabletiredisposal.online/api/get-all-drivers',
         requestOptions,
       )
         .then(response => response.text())
@@ -82,7 +82,7 @@ const CreateOrder = ({navigation}) => {
     };
 
     fetch(
-      'https://portal.reliabletiredisposalhq.com/api/get-customers',
+      'https://manifest.reliabletiredisposal.online/api/get-customers',
       requestOptions,
     )
       .then(response => response.text())
@@ -115,7 +115,7 @@ const CreateOrder = ({navigation}) => {
       redirect: 'follow',
     };
 
-    fetch('https://portal.reliabletiredisposalhq.com/api/order', requestOptions)
+    fetch('https://manifest.reliabletiredisposal.online/api/order', requestOptions)
       .then(response => response.text())
       .then(result => {
         setShowindicator(false);

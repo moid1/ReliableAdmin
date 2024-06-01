@@ -115,7 +115,7 @@ const Createmanager = ({navigation}) => {
       };
 
       fetch(
-        'https://portal.reliabletiredisposalhq.com/api/register-manager',
+        'https://manifest.reliabletiredisposal.online/api/register-manager',
         requestOptions,
       )
         .then(response => response.text())

@@ -22,7 +22,7 @@ const Customerhome = ({navigation}) => {
       };
 
       fetch(
-        'https://portal.reliabletiredisposalhq.com/api/get-customers-order',
+        'https://manifest.reliabletiredisposal.online/api/get-customers-order',
         requestOptions,
       )
         .then(response => response.text())

@@ -28,7 +28,7 @@ const AdminDriver = ({navigation}) => {
       };
 
       fetch(
-        'https://portal.reliabletiredisposalhq.com/api/get-all-drivers',
+        'https://manifest.reliabletiredisposal.online/api/get-all-drivers',
         requestOptions,
       )
         .then(response => response.text())

@@ -51,7 +51,7 @@ const ManagerSignin = ({navigation}) => {
       };
 
       fetch(
-        'https://portal.reliabletiredisposalhq.com/api/login',
+        'https://manifest.reliabletiredisposal.online/api/login',
         requestOptions,
       )
         .then(response => response.text())

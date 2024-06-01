@@ -33,7 +33,7 @@ const Manifests = ({navigation, route}) => {
       };
 
       fetch(
-        `https://portal.reliabletiredisposalhq.com/api/get-customer-manifest?customer_id=${data}`,
+        `https://manifest.reliabletiredisposal.online/api/get-customer-manifest?customer_id=${data}`,
         requestOptions,
       )
         .then(response => response.text())

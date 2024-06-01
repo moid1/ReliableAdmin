@@ -83,7 +83,7 @@ const CreateCustomer = ({navigation}) => {
       };
 
       fetch(
-        'https://portal.reliabletiredisposalhq.com/api/register-customer',
+        'https://manifest.reliabletiredisposal.online/api/register-customer',
         requestOptions,
       )
         .then(response => response.text())

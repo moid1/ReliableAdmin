@@ -86,7 +86,7 @@ const CreateDriver = ({navigation}) => {
       };
 
       fetch(
-        'https://portal.reliabletiredisposalhq.com/api/register-driver',
+        'https://manifest.reliabletiredisposal.online/api/register-driver',
         requestOptions,
       )
         .then(response => response.text())
